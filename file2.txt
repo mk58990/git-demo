@@ -1,0 +1,31 @@
+Admin@DESKTOP-2G9EPJF MINGW64 ~/OneDrive/Desktop/git course/status (master)
+$ ssh-keygen -t ed25519 -C "mk58990@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/Admin/.ssh/id_ed25519):
+
+
+
+Admin@DESKTOP-2G9EPJF MINGW64 ~/OneDrive/Desktop/git course/status (master)
+$ eval "$(ssh-agent -s)"
+Agent pid 1643
+
+Admin@DESKTOP-2G9EPJF MINGW64 ~/OneDrive/Desktop/git course/status (master)
+$ ssh-add ~/.ssh/id_ed25519
+/c/Users/Admin/.ssh/id_ed25519: No such file or directory
+
+Admin@DESKTOP-2G9EPJF MINGW64 ~/OneDrive/Desktop/git course/status (master)
+
+
+Admin@DESKTOP-2G9EPJF MINGW64 ~/OneDrive/Desktop/git course/status (master)
+$ eval "$(ssh-agent -s)"
+Agent pid 1684
+
+
+********************************************************
+Admin@DESKTOP-2G9EPJF MINGW64 ~/OneDrive/Desktop/git course/status (master)
+$ ssh-add ~/.ssh/id_ed25519
+Identity added: /c/Users/Admin/.ssh/id_ed25519 (mk58990@gmail.com)
+
+*********************************************************
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFlZSwXCPAiXqXcadVJMkZil5681XFWRTJTK/agkSD32 mk58990@gmail.com
+
